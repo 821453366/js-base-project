@@ -38,6 +38,8 @@ function joinBarCode(postalCodeArray, americanCode) {
 
     if (isTenMultiple(sum))
         postalCodeArray.push(10 - (sum % 10));
+    else
+        postalCodeArray.push(0);
     postalCodeArray.forEach(item => {
         resultArray.push(americanCode[parseInt(item)])
     });
