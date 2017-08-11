@@ -247,12 +247,5 @@ Go to the store and buy some more, 99 bottles of beer on the wall.`;
 
         expect(expect_string).to.equal(result);
     });
-    // it("测试用例2", function(){
-    //
-    //     main(5);
-    //     var result = _.flatten(console.log.args).join("\n");
-    //     var expect_string = '\u001b[0m%s%s\u001b[0m\n\n\n\u001b[0m%s%s\u001b[0m\n  \n测试描述\n  \u001b[32m  ✓\u001b[0m\u001b[90m %s\u001b[0m\n测试用例1';
-    //     expect(expect_string).to.equal(result);
-    // });
 });
 module.exports = describe;
