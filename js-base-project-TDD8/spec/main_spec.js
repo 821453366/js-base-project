@@ -20,7 +20,7 @@ describe("测试描述", function(){
         expect(expect_string).to.equal(result);
     });
 
-    it("测试用例1:(95713-9571)", function(){
+    it("测试用例2:(95713-9571)", function(){
 
         var result = main('95713-9571');
         var expect_string = '|	|:|::	:|:|:	|:::|	:::||	::||:	|:|::	:|:|:	|:::|	:::||	::||:	|';
@@ -28,14 +28,14 @@ describe("测试描述", function(){
         expect(expect_string).to.equal(result);
     });
 
-    it("测试用例1:(95718)", function(){
+    it("测试用例3:(95718)", function(){
 
         var result = main('95718');
         var expect_string = '|	|:|::	:|:|:	|:::|	:::||	|::|:	|';
 
         expect(expect_string).to.equal(result);
     });
-    it("测试用例1:('|	|:|::	:|:|:	|:::|	:::||	::||:	:|:|:	|')", function(){
+    it("测试用例4:('|	|:|::	:|:|:	|:::|	:::||	::||:	:|:|:	|')", function(){
 
         var result = main('|	|:|::	:|:|:	|:::|	:::||	::||:	:|:|:	|');
         var expect_string = '95713';
@@ -43,7 +43,7 @@ describe("测试描述", function(){
         expect(expect_string).to.equal(result);
     });
 
-    it("测试用例1:('|	|:|::	:|:|:	|:::|	:::||	::||:	|:|::	:|:|:	|:::|	:::||	::||:	|')", function(){
+    it("测试用例5:('|	|:|::	:|:|:	|:::|	:::||	::||:	|:|::	:|:|:	|:::|	:::||	::||:	|')", function(){
 
         var result = main('|	|:|::	:|:|:	|:::|	:::||	::||:	|:|::	:|:|:	|:::|	:::||	::||:	|');
         var expect_string = '95713-9571';
