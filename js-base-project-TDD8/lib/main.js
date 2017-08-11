@@ -1,5 +1,5 @@
-function main(num) {
-    let postalCode = num;
+function main(afferentValuer) {
+    let postalCode = afferentValuer;
     let americanCode = ['||:::', ':::||', '::|:|', '::||:', ':|::|', ':|:|:', ':||::', '|:::|', '|::|:', '|:|::']
 
     if (isPostalCodeAndBarCode(postalCode) === 1)

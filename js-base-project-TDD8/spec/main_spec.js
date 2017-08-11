@@ -14,7 +14,7 @@ describe("测试描述", function(){
 
     it("测试用例1:(95713)", function(){
 
-        var result = main('95713');
+            var result = main('95713');
         var expect_string = '|	|:|::	:|:|:	|:::|	:::||	::||:	:|:|:	|';
         
         expect(expect_string).to.equal(result);
